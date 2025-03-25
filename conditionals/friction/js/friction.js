@@ -1,5 +1,5 @@
 /*
-	Name exercise: seventh
+	Name exercise: friction
 	Description: Calculate the friction of an object on a surface
 	Autor:Esteban
 	Date: 19th march 2025

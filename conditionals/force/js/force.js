@@ -1,5 +1,5 @@
 /*
-	Name exercise: fifth
+	Name exercise:Force
 	Description: Determine the force of an object and compare it to a limit
 	Autor:Esteban
 	Date: 19th march 2025

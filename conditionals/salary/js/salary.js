@@ -1,5 +1,5 @@
 /*
-	Name exercise: third
+	Name exercise: salary
 	Description: calculation of net salary with deductions
 	Autor:Esteban
 	Date: 19th march 2025

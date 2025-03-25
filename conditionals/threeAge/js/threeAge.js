@@ -1,5 +1,5 @@
 /*
-	Name exercise: second
+	Name exercise: three age
 	Description: Determination of age of majority and average age
 	Autor:Esteban
 	Date: 19th march 2025

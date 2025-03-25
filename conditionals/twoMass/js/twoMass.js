@@ -1,5 +1,5 @@
 /*
-	Name exercise: sixth
+	Name exercise: two mass
 	Description: Comparison of two bodies in free fall
 	Autor:Esteban
 	Date: 19th march 2025

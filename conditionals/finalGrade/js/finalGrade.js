@@ -1,5 +1,5 @@
 /*
-	Name exercise: fourth
+	Name exercise: grade final
 	Description: Calculate the final grades
 	Autor:Esteban
 	Date: 19th march 2025

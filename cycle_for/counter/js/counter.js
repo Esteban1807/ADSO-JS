@@ -8,7 +8,7 @@
 
 let counter;
 let number=5;
-let acu=0;
+let acu;
 
 for(counter=0;counter<=number;counter++){
 	

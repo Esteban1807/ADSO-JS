@@ -6,10 +6,10 @@
 */
 
 let acceleration;
-let bulk = 10;
+let mass = 10;
 let force = 15;
 
-acceleration = force/bulk;
+acceleration = force/mass;
 
 if (acceleration > 5) {
 	console.log("The acceleration is high");

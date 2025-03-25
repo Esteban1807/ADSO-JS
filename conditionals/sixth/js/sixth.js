@@ -5,18 +5,18 @@
 	Date: 19th march 2025
 */
 
-let bulkOne = 15;
-let bulkTwo = 20;
+let massOne = 15;
+let massTwo = 20;
 let forceOne;
 let forceTwo;
 
-forceOne = bulkOne * 9.81;
-forceTwo = bulkTwo * 9.81;
+forceOne = massOne * 9.81;
+forceTwo = massTwo * 9.81;
 
 if (forceOne > forceTwo) {
-	console.log("Bulk one exerts greater gravitational force");
+	console.log("Mass one is greater gravitational force");
 } else if (forceTwo > forceOne) {
-	console.log("Bulk two exerts greater gravitational force");
+	console.log("Mass two is greater gravitational force");
 } else {
 	console.log("Gravitational forces are equal");
 }

@@ -8,18 +8,18 @@
 let force = 0;
 force = parseFloat(prompt("Write the force (equal to 0 to exit): "));
 let totalForce = 0;
-let counter = -1;
-let equivalentForce;
+let counter=0;
+let reactionForce;
 
 while (force !== 0) {
-    counter++;
+    counter=counter+1;
 
-    equivalentForce = force * -1;
-    totalForce += force;
+    reactionForce = force * (-1);
+    totalForce = totalForce+force;
 
-    console.log("equivalent Force: " + equivalentForce);
+    console.log("reaction Force: " + reactionForce);
 
-    force = parseFloat(prompt("Write the force (equal to 0 to exit): "));
+    force = parseFloat(prompt("Write the force (write '0' to exit): "));
 }
 
 console.log("The total force: " + totalForce);

@@ -5,23 +5,23 @@
 	Date: 19th march 2025
 */
 
-let force, distance, totalWork = 0;
+let force; 
+let distance;
+let totalWork = 0;
 let counter = 0;
+let work;
+force = parseFloat(prompt("Enter the applied force (N):"));
+distance = parseFloat(prompt("Enter the distance traveled (m):"));
 
-while (true) {
+while (distance>0) {
+    work = force * distance;
+    totalWork = totalWork+ work;
+    counter++;
+
+    console.log("Work "+counter+"= "+work);
     force = parseFloat(prompt("Enter the applied force (N):"));
     distance = parseFloat(prompt("Enter the distance traveled (m):"));
 
-    if (distance < 0) {
-        console.log("Program finished.");
-        break;
-    }
-
-    let work = force * distance;
-    totalWork += work;
-    counter++;
-
-    console.log(`Work done: ${work.toFixed(2)} J`);
-    console.log(`Total work accumulated: ${totalWork.toFixed(2)} J`);
-    console.log(`Number of calculations performed: ${counter}`);
 }
+console.log("Total Work= "+totalWork);
+console.log("Total number of times calculated= "+counter)

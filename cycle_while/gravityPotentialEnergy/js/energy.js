@@ -5,24 +5,27 @@
 	Date: 19th march 2025
 */
 
-const gravity = 9.81; 
-let mass, height, totalEnergy = 0;
+let gravity = 9.81; 
+let mass;
+let height; 
+let totalEnergy = 0;
 let counter = 0;
+let gravityPotentialEnergy;
 
-while (true) {
+mass = parseFloat(prompt("Enter the mass of the object (kg):"));
+height = parseFloat(prompt("Enter the height of the object (m):"));
+
+while (height!=0) {
+    gravityPotentialEnergy = mass * gravity * height;
+
+    totalEnergy = totalEnergy+gravityPotentialEnergy;
+    counter++;
+
+    console.log("Gravity Potential Energy= "+gravityPotentialEnergy);
+
     mass = parseFloat(prompt("Enter the mass of the object (kg):"));
     height = parseFloat(prompt("Enter the height of the object (m):"));
 
-    if (height < 0) {
-        console.log("Program finished.");
-        break;
-    }
-
-    let gravityPotentialEnergy = mass * gravity * height;
-    totalEnergy += gravityPotentialEnergy;
-    counter++;
-
-    console.log(`Potential gravityPotentialEnergy: ${gravityPotentialEnergy.toFixed(2)} J`);
-    console.log(`Total gravityPotentialEnergy accumulated: ${totalEnergy.toFixed(2)} J`);
-    console.log(`Number of calculations performed: ${counter}`);
 }
+console.log("Total energy= "+totalEnergy);
+console.log("calculation performed= "+counter);

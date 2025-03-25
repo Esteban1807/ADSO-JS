@@ -8,7 +8,7 @@
 let tension;
 let counter;
 let mass;
-const gravity = 9.8;
+let gravity = 9.8;
 let limit = parseInt(prompt("Enter how many tensions calculate:"));
 
 for(counter = 1; counter <= limit; counter++){

@@ -7,11 +7,11 @@
 
 
 let frictionForce;
-let bulk = 8;
+let mass = 8;
 let frictionCoefficient = 0.4;
 let gravitationalAcceleration = 10;
 
-frictionForce = frictionCoefficient * bulk * gravitationalAcceleration;
+frictionForce = frictionCoefficient * mass * gravitationalAcceleration;
 
 console.log("The friction force is: "+ frictionForce);
 

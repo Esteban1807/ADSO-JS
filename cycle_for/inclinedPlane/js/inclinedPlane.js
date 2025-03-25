@@ -8,7 +8,7 @@
 let radians;
 let counter;
 let paralelForce;
-const gravity = 9.8;
+let gravity = 9.8;
 let mass = parseInt(prompt("Enter the mass:"));
 let startAngle = parseInt(prompt("Enter the start angle:"));
 let endAngle = parseInt(prompt("Enter the end angle:"));

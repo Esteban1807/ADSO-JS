@@ -7,10 +7,14 @@
 
 number = 9;
 let counter = 1;
+let result
 
 while (counter <= 5) {
-    let result = number * counter;
-    let parity = (result % 2 == 0) ? "par" : "impar";
-    console.log(`${number} * ${counter} = ${result} (${parity})`);
+    result = number * counter;
+    if (result % 2==0){
+        console.log(number+" X "+counter+" = "+result+" (even)");
+    }else{
+        console.log(number+" X "+counter+" = "+result+" (odd)");
+    }
     counter++;
 }

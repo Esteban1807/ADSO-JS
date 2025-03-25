@@ -11,18 +11,18 @@ let counterTwo;
 let product;
 let even = 0;
 let odd = 0;
-let bassOrBuzz;
+
 
 for(counterOne=1; counterOne<=5; counterOne++){
 	for(counterTwo = 1; counterTwo<=5; counterTwo++){
 		product= counterOne * counterTwo;
 		if(product%2 == 0){
-			bassOrBuzz = "buzz";
-			even = even +1; }
+			even = even +1; 
+			console.log(counterOne + " X " + counterTwo + " = " + product + ", Buzz");}
 		else{
-			bassOrBuzz = "bass";
-			odd = odd + 1; }
-		console.log(counterOne + " X " + counterTwo + " = " + product + ", "+ bassOrBuzz);}
+			odd = odd + 1; 
+			console.log(counterOne + " X " + counterTwo + " = " + product + ", Bass");}
+		}
 }
 console.log("There's " + even + " even and there's " + odd + " odd numbers");
 

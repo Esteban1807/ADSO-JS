@@ -8,9 +8,9 @@
 
 let counter;
 let number = 5;
-let product = 1;
+let product;
 
-for(counter=1; counter<=number; counter++){	
+for(counter=1; counter<=5; counter++){	
 	product = number*counter;
 	console.log(number + " X " + counter + " = " + product);
 }

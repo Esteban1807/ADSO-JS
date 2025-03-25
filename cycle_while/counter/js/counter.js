@@ -5,10 +5,10 @@
 	date: march 15th 2025
 */
 
-let counter=1;
+let counter=0;
 let number=5;
 
-while(counter <= number) {
+while(counter < number) {
 	
 	counter++;
 	console.log(counter );

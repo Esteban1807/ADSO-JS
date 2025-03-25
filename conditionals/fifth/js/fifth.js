@@ -6,11 +6,11 @@
 */
 
 
-let bulk = 40;
+let mass = 40;
 let acceleration = 25;
 let force;
 
-force = bulk * acceleration;
+force = mass * acceleration;
 
 if (force >= 100) {
 	console.log("The force is high");
